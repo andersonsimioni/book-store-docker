@@ -1,0 +1,31 @@
+table{
+    margin: 25px auto 25px auto;   
+}
+
+table thead th{
+    background-color: #242e47;
+    color: white;
+    padding: 10px 35px 10px 35px; 
+    font-weight: 400;
+    font-size: large;
+}
+
+table tbody{
+    background-color: whitesmoke;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #aaf2ff;
+}
+
+#no-books-warning{
+    color: whitesmoke;
+    background-color: #f0434b;
+    border-radius: 4px;
+    padding: 5px;
+    margin: auto;
+}
+
+button.active{
+    background-color: rgba(0, 0, 255, 0.5);
+}
